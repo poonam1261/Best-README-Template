@@ -26,9 +26,12 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <h3 align="center">Gemini API Automated Resume Reviewer</h3>
+  <a href="https://github.com/your_username/repo_name">
+    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  </a>
+  <h1 align="center">Gemini API Automated Resume Reviewer</h1>
   <p align="center">
-    An automated resume reviewer using Gemini API to analyze resume-Job Description matches!
+    <strong>Efficiently matches resumes to job descriptions using Gemini API</strong>
     <br />
     <a href="https://github.com/your_username/repo_name"><strong>Explore the docs »</strong></a>
     <br />
@@ -69,70 +72,76 @@
 About The Project
 
 
-The Gemini API Automated Resume Reviewer enhances the process of matching resumes to job descriptions. It utilizes Gemini API to provide detailed analysis including JD match percentage, profile summary suggestions, and more.
+The Gemini API Automated Resume Reviewer is designed to streamline the process of evaluating resumes against job descriptions. By leveraging the Gemini API, it provides detailed analysis such as JD match percentage, profile summaries, and actionable suggestions for improvement.
 
-Here's why this project is useful:
-
-Simplifies the resume reviewing process by automating the analysis of job requirements and candidate profiles.
-Provides actionable insights to improve resume content based on job description criteria.
-Encourages best practices in resume creation tailored to specific job roles.
+Why This Project?
+Efficiency: Automates the resume review process to save time and ensure consistency.
+Actionable Insights: Provides meaningful feedback to enhance resumes based on job requirements.
+Enhanced Accuracy: Utilizes advanced API capabilities for precise matching and evaluation.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 Built With
-This project integrates:
+This project utilizes:
 
-Gemini API
-Python
-[Other dependencies and libraries used]
+ (if applicable)
+ (if applicable)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- GETTING STARTED -->
 Getting Started
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running, follow these steps:
 
 Prerequisites
-Ensure you have the following installed:
-
-Python 3
-Gemini API key (get yours at https://gemini-api.com)
+Python 3.x
+Gemini API key (sign up at Gemini API)
 Installation
-Clone the repo
+Clone the repository
 sh
 Copy code
 git clone https://github.com/your_username/repo_name.git
-Install Python dependencies
+Navigate to the project directory
+sh
+Copy code
+cd repo_name
+Install the required Python packages
 sh
 Copy code
 pip install -r requirements.txt
-Set up your Gemini API key
+Configure your API key
 python
 Copy code
-# Set your API key in config.py
+# Open config.py and set your API key
 API_KEY = 'ENTER YOUR API KEY HERE'
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- USAGE -->
 Usage
-Provide examples and screenshots to demonstrate how to use the Gemini API Automated Resume Reviewer. Additional resources and links can also be included here.
+To use the Gemini API Automated Resume Reviewer:
 
-For detailed examples, please refer to the Documentation
+Prepare your resume and job description in text format.
+Run the script to analyze and review.
+sh
+Copy code
+python review_resume.py --resume your_resume.txt --job-description job_description.txt
+Review the results, which will include JD match percentage, profile summary, and improvement suggestions.
+For more examples and detailed usage, please refer to the Documentation
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- ROADMAP -->
 Roadmap
- Implement basic resume-JD matching functionality
- Integrate profile summary suggestions based on analysis
+ Implement core resume-JD matching functionality
+ Integrate profile summary generation
  Add multi-language support
- Improve user interface for easier interaction
- Extend API capabilities for deeper analysis
-See the open issues for a list of proposed features and known issues.
+ Enhance user interface for better interaction
+ Expand API capabilities for more detailed analysis
+See the open issues for a full list of proposed features and known issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTRIBUTING -->
 Contributing
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
+Contributions are greatly appreciated! Here’s how you can contribute:
 
-Fork the Project
-Create your Feature Branch (git checkout -b feature/AmazingFeature)
-Commit your Changes (git commit -m 'Add some AmazingFeature')
-Push to the Branch (git push origin feature/AmazingFeature)
+Fork the repository
+Create a feature branch (git checkout -b feature/YourFeature)
+Commit your changes (git commit -m 'Add some feature')
+Push to the branch (git push origin feature/YourFeature)
 Open a Pull Request
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- LICENSE -->
@@ -142,7 +151,7 @@ Distributed under the MIT License. See LICENSE.txt for more information.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- CONTACT -->
 Contact
-Poonam Prabhugaonkar - LinkedIn
+Poonam Prabhugaonkar - LinkedIn - email@example.com
 
 Project Link: https://github.com/your_username/repo_name
 
